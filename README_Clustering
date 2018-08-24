@@ -1,0 +1,23 @@
+runmedoid.py : 
+	1.Read the preprocessed data in result.csv and result_label.csv, change the data format to the one can be used to calculate the Euclidean distance
+	2.Initialize PCA
+	3.Calculate the Euclidean distance and call the kmedoid function
+	4.Display the result
+
+kmediods.py :
+	Execute kemedoids
+
+test.py :
+	Preprocessing data in mushrooms.csv
+
+data.txt :
+	Preprocessed data of mushrooms features
+
+result.csv :
+	Data is the same as those in the data.txt. Transforming the txt format to csv format for the sake of easy processing.
+
+data_label.txt :
+	Preprocessed data of mushrooms lables
+
+result_label.csv :
+	Data is the same as those in the data_label.txt. Transforming the txt format to csv format for the sake of easy processing.
